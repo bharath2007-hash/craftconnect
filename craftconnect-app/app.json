@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "CraftConnect",
+    "name": "craftconnect-app",
     "slug": "craftconnect-app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -11,13 +11,11 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
     "ios": {
       "supportsTablet": true
     },
     "android": {
+      "package": "com.bharath2007.craftconnectapp",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -25,6 +23,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e6998c06-e346-41c4-a796-38b9d24184d3"
+      }
     }
   }
 }
